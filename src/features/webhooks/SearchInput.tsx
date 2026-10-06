@@ -27,6 +27,8 @@ export function SearchInput({ value, onChange, delay = 350 }: Props) {
 
   return (
     <input
+      id="webhook-search"
+      name="search"
       type="search"
       className="search"
       placeholder="Search by name…"
